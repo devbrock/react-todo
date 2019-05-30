@@ -53,7 +53,14 @@ class App extends Component {
 	render() {
 		return (
 			<Router>
-				<div className="App">
+				<div
+					className="App"
+					style={{
+						width: '33rem',
+						justifyContent: 'center',
+						margin: '0 auto',
+					}}
+				>
 					<div className="container">
 						<Header />
 						<Route

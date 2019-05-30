@@ -32,7 +32,7 @@ export default class AddTodo extends Component {
 					type="submit"
 					value="submit"
 					className="btn"
-					style={{ flex: '1' }}
+					style={{ flex: '2' }}
 				/>
 			</form>
 		);
